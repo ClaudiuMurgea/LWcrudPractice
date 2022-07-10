@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background:rgb(220, 176, 176);
+}
+.wrapper {
+    display: block;
+    width:80%;
+    margin:0 a uto;
+    margin-top:100px;
+}
+.container {
+    width:30%;
+    display: flex;
+    flex-direction:column;
+}
+.button {
+    background: green;
+    border: 2px  solid #000;
+    color: white;
+}
+.each {
+    width: 100%;
+    min-width:100%;
+    margin-top:1rem;
+}
+.inputs {
+    width:177px;
+    margin-top:1rem;
+}
+input[type="file" i] {
+    text-overflow: clip;
+    cursor:pointer;
+}
+.upload {
+    border: 1px solid #c9c5c5;
+}
+.border {
+    border: 2px solid gray;
+}
